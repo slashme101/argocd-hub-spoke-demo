@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: slashme101/backstage-python-app:tagname
+      - image: slashme101/backstage-python-app:v1
         name: guestbook-ui
         ports:
         - containerPort: 80
